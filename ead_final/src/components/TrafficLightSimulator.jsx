@@ -1,3 +1,5 @@
+import React from 'react';
+
 const TrafficLightSimulator = () => {
   return (
     <div className="traffic-light-container">
