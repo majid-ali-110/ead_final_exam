@@ -32,6 +32,7 @@ const TrafficLightSimulator = () => {
           background-color: #333;
           border-radius: 10px;
           padding: 20px 0;
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
         }
 
         .light {
@@ -39,18 +40,24 @@ const TrafficLightSimulator = () => {
           height: 80px;
           border-radius: 50%;
           background-color: #555;
+          transition: 
+            background-color 0.5s ease, 
+            box-shadow 0.5s ease;
         }
 
         .red.active {
-          background-color: red;
+          background-color: #ff4d4d;
+          box-shadow: 0 0 20px 10px rgba(255, 0, 0, 0.5);
         }
 
         .yellow.active {
-          background-color: yellow;
+          background-color: #ffff4d;
+          box-shadow: 0 0 20px 10px rgba(255, 255, 0, 0.5);
         }
 
         .green.active {
-          background-color: green;
+          background-color: #4dff4d;
+          box-shadow: 0 0 20px 10px rgba(0, 255, 0, 0.5);
         }
       `}</style>
     </div>

@@ -9,7 +9,9 @@ function App() {
 
   return (
     <>
+    <div><h2>Traffic Light Simulator</h2>
           <TrafficLightSimulator />
+    </div>
     </>
   )
 }
